@@ -1,0 +1,332 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/globallibs/globalTeardown.ts",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Chrome",
+        "name": "Chrome",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Edge",
+        "name": "Edge",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Device",
+        "name": "Device",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Pixel 4",
+        "name": "Pixel 4",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "iPhone 11",
+        "name": "iPhone 11",
+        "testDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "reporter": [
+      [
+        "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/CustomReporterConfig.ts",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/node_modules/allure-playwright/dist/index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM/playwright.config.ts",
+    "rootDir": "/Users/srikanthmasanala/Documents/qalabs/PlaywrightPOM",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.27.1",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/TC_Login.spec.ts",
+      "file": "tests/TC_Login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Scenarios",
+          "file": "tests/TC_Login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test with valid user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chrome",
+                  "projectName": "Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1025,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-21T14:22:55.053Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b8eb30c5aed9525bba1-0363eb68963f971f19cc",
+              "file": "tests/TC_Login.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "Test with Invalid user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chrome",
+                  "projectName": "Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 448,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Epic sadface: Username and password do not match any user in this service\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-21T14:22:56.743Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b8eb30c5aed9525bba1-010df8e60a2458afe918",
+              "file": "tests/TC_Login.spec.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "Test with Blank Username",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chrome",
+                  "projectName": "Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 616,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-21T14:22:57.192Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b8eb30c5aed9525bba1-8c103f871c7c9faa877f",
+              "file": "tests/TC_Login.spec.ts",
+              "line": 32,
+              "column": 3
+            },
+            {
+              "title": "Test with Blank password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chrome",
+                  "projectName": "Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 586,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-21T14:22:57.809Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b8eb30c5aed9525bba1-d11bca306c666fad53f7",
+              "file": "tests/TC_Login.spec.ts",
+              "line": 56,
+              "column": 3
+            },
+            {
+              "title": "Test with locked credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chrome",
+                  "projectName": "Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 455,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-21T14:22:58.396Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b8eb30c5aed9525bba1-54c7d4eeaaf89fe1da7c",
+              "file": "tests/TC_Login.spec.ts",
+              "line": 69,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

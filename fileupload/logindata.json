@@ -1,0 +1,11 @@
+{
+    "waitForElement": 120000,
+    "URL": "https://www.saucedemo.com/",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "dbUsername": "",
+    "dbPassword": "",
+    "dbServerName": "",
+    "dbPort": "",
+    "dbName": ""
+  }

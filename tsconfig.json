@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "types": [
+            "node"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@fixtures/*": [
+                "fixtures/*"
+            ],
+            "@testdata/*": [
+                "testdata/*"
+            ]
+        },
+        "typeRoots": [
+            "./types"
+        ]
+    }
+}
